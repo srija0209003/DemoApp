@@ -35,8 +35,8 @@ jobs:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_DELIGHTFUL_DUNE_01F3BC300 }}
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           action: "upload"
-          app_location: "/"
-          output_location: "dist/DemoApp/browser"
+          app_location: "dist/DemoApp/browser"
+          output_location: ""
           api_location: ""
           skip_app_build: true
  
@@ -50,4 +50,5 @@ jobs:
         with:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN }}
           action: "close"
+
 
